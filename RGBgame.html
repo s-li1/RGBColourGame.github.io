@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RGB Colour Game</title>
+	<link rel="stylesheet" type="text/css" href="colourGame.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id = "box" >
+	<h1>Guess the 
+		<br>
+		<span id = "colourDisplay">RGB </span>
+		<br>
+		Colour Game
+	</h1>
+	
+	<div id = "row">
+		
+		<button id = "reset">New Colours </button>
+		<span id = "alert">
+		</span>
+		<button class = "modeButton">Easy</button>
+	<button class="modeButton selectedButton">Hard</button>
+	</div>
+	
+</div>
+
+
+<div id = "container" >
+	<div class = "circle zoomIn"></div>
+
+	<div class = "circle zoomIn"></div>
+
+	<div class = "circle zoomIn"></div>
+
+	<div class ="circle zoomIn"></div>
+
+	<div class = "circle zoomIn"></div>
+
+	<div class = "circle zoomIn"></div>
+
+</div>
+
+<div id = "results">
+	<h1 id = "correct">Good Job!</h1>
+
+
+	<button id = "playAgain">New Colours</button>
+</div>
+</body>
+
+<script type = "text/javascript" src = "colourGame.js"></script>
+</body>
+</html>

@@ -1,3 +1,4 @@
 # RGB Colour Game
 
-A RGB colour guessing game with easy and hard difficulty using Vanilla JS.
+An RGB colour guessing game with easy and hard difficulty using Vanilla JS.
+https://s-li1.github.io/RGBColourGame.github.io/
